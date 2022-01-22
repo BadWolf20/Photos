@@ -43,7 +43,7 @@ class MainViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        navigationItem.title = "Settings"
+        navigationItem.title = NSLocalizedString("albumsViewTitle", comment: "")
 
         let add = UIBarButtonItem(barButtonSystemItem: .add, target: self, action: #selector(headerButton))
         navigationItem.rightBarButtonItems = [add]

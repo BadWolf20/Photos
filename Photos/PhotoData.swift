@@ -20,11 +20,11 @@ struct section {
 }
 
 let myAlbums: [Album] = [
-    Album(title: "Недавние",
+    Album(title: NSLocalizedString("albumRecents", comment: ""),
           photos: [UIImage(named: "photo-25")
                   ],
           icon: nil),
-    Album(title: "Избранное",
+    Album(title: NSLocalizedString("albumFavorites", comment: ""),
           photos: [UIImage(named: "photo-26"),
                    UIImage(named: "photo-27")
                   ],
@@ -47,21 +47,21 @@ let myAlbums: [Album] = [
 ]
 
 let peopleAndPlaces: [Album] = [
-    Album(title: "Люди",
+    Album(title: NSLocalizedString("albumPeople", comment: ""),
           photos: [UIImage(named: "photo-5"),
                    UIImage(named: "photo-6")
                   ],
           icon: nil),
-    Album(title: "Места",
+    Album(title: NSLocalizedString("albumPlaces", comment: ""),
           photos: [UIImage(named: "photo-7")
                   ],
           icon: nil),
-    Album(title: "Виды",
+    Album(title: NSLocalizedString("albumViews", comment: ""),
           photos: [UIImage(named: "photo-8"),
                    UIImage(named: "photo-9")
                   ],
           icon: nil),
-    Album(title: "Друзья",
+    Album(title: NSLocalizedString("albumFriends", comment: ""),
           photos: [UIImage(named: "photo-10"),
                    UIImage(named: "photo-11")
                   ],
@@ -69,21 +69,21 @@ let peopleAndPlaces: [Album] = [
 ]
 
 let mediaTypes: [Album] = [
-    Album(title: "Видео",
+    Album(title: NSLocalizedString("albumVideo", comment: ""),
           photos: [UIImage(named: "photo-12")
                   ],
           icon: UIImage(systemName: "video")),
-    Album(title: "Селфи",
+    Album(title: NSLocalizedString("albumSelfie", comment: ""),
           photos: [UIImage(named: "photo-13"),
                    UIImage(named: "photo-14"),
                    UIImage(named: "photo-15")
                   ],
           icon: UIImage(systemName: "person.crop.square.fill")),
-    Album(title: "Фото Live Photos",
+    Album(title: NSLocalizedString("albumLivePhotos", comment: ""),
           photos: [UIImage(named: "photo-16")
                   ],
           icon: UIImage(systemName: "livephoto")),
-    Album(title: "Портреты",
+    Album(title: NSLocalizedString("albumPortraits", comment: ""),
           photos: [UIImage(named: "photo-17"),
                    UIImage(named: "photo-18")
                   ],
@@ -91,16 +91,16 @@ let mediaTypes: [Album] = [
 ]
 
 let other: [Album] = [
-    Album(title: "Импортированные",
+    Album(title: NSLocalizedString("albumImports", comment: ""),
           photos: [UIImage(named: "photo-19")
                   ],
           icon: UIImage(systemName: "square.and.arrow.down")),
-    Album(title: "Скрытые",
+    Album(title: NSLocalizedString("albumHidden", comment: ""),
           photos: [UIImage(named: "photo-20"),
                    UIImage(named: "photo-21")
                   ],
           icon: UIImage(systemName: "eye.slash")),
-    Album(title: "Недавно удаленные",
+    Album(title: NSLocalizedString("albumRecentlyDeleted", comment: ""),
           photos: [UIImage(named: "photo-22"),
                    UIImage(named: "photo-23")
                   ],
@@ -108,8 +108,8 @@ let other: [Album] = [
 ]
 
 let sectionsList = [
-    section(type: 1, title: "Мои альбомы", album: myAlbums),
-    section(type: 2, title: "Люди и места", album: peopleAndPlaces),
-    section(type: 3, title: "Типы медиафайлов", album: mediaTypes),
-    section(type: 4, title: "Другое", album: other)
+    section(type: 1, title: NSLocalizedString("sectionMyAlbums", comment: ""), album: myAlbums),
+    section(type: 2, title: NSLocalizedString("sectionPeopleAndPlaces", comment: ""), album: peopleAndPlaces),
+    section(type: 3, title: NSLocalizedString("sectionMediafilesType", comment: ""), album: mediaTypes),
+    section(type: 4, title: NSLocalizedString("sectionUtilities", comment: ""), album: other)
 ]
