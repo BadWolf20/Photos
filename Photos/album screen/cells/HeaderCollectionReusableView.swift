@@ -87,9 +87,9 @@ extension HeaderCollectionReusableView{
     enum Metric {
         // titleLable
         static let titleLableFontSize: CGFloat = 19
-        static let titleLableLeftIndent: CGFloat = 5
+        static let titleLableLeftIndent: CGFloat = 0
         // line
         static let lineStartEndY: CGFloat = 0
-        static let lineStartX: CGFloat = 10
+        static let lineStartX: CGFloat = 5
     }
 }
