@@ -1,0 +1,28 @@
+/*
+  Localizable.strings
+  Photos
+
+  Created by Roman on 22.01.2022.
+
+*/
+
+"albumsViewTitle" = "Альбомы";
+
+"albumRecents" = "Недавние";
+"albumFavorites" = "Избранное";
+"albumPeople" = "Люди";
+"albumPlaces" = "Места";
+"albumViews" = "Виды";
+"albumFriends" = "Друзья";
+"albumVideo" = "Видео";
+"albumSelfie" = "Селфи";
+"albumLivePhotos" = "Фото Live Photos";
+"albumPortraits" = "Портреты";
+"albumImports" = "Импортировванные";
+"albumHidden" = "Скрытые";
+"albumRecentlyDeleted" = "Недавно удаленные";
+
+"sectionMyAlbums" = "Мои альбомы";
+"sectionPeopleAndPlaces" = "Люди и места";
+"sectionMediafilesType" = "Типы медиафайлов";
+"sectionUtilities" = "Другое";
