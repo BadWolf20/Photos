@@ -21,12 +21,12 @@ struct section {
 
 let myAlbums: [Album] = [
     Album(title: "Недавние",
-          photos: [UIImage(named: "Pavel-0")
+          photos: [UIImage(named: "photo-25")
                   ],
           icon: nil),
     Album(title: "Избранное",
-          photos: [UIImage(named: "Danil-0"),
-                   UIImage(named: "Pavel-0")
+          photos: [UIImage(named: "photo-26"),
+                   UIImage(named: "photo-27")
                   ],
           icon: nil),
     Album(title: "Instagram",
@@ -37,6 +37,11 @@ let myAlbums: [Album] = [
     Album(title: "Twitter",
           photos: [UIImage(named: "photo-3"),
                    UIImage(named: "photo-4")
+                  ],
+          icon: nil),
+    Album(title: "Snapchat",
+          photos: [UIImage(named: "photo-28"),
+                   UIImage(named: "photo-29")
                   ],
           icon: nil)
 ]

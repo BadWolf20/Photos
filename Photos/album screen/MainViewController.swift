@@ -46,9 +46,7 @@ class MainViewController: UIViewController {
         navigationItem.title = "Settings"
 
         let add = UIBarButtonItem(barButtonSystemItem: .add, target: self, action: #selector(headerButton))
-        let play = UIBarButtonItem(title: "Play", style: .plain, target: self, action: #selector(headerButton))
-
-        navigationItem.rightBarButtonItems = [add, play]
+        navigationItem.rightBarButtonItems = [add]
 
         setupHierarchy()
         setupLayout()
@@ -80,7 +78,7 @@ extension MainViewController {
 
     // Button actions
     @objc func headerButton() {
-        print("action")
+        print("album adding")
     }
 
     // Functions
@@ -197,8 +195,7 @@ extension MainViewController: UICollectionViewDataSource, UICollectionViewDelega
     }
 
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-        //moveToDogSetup()
-        print(123)
+        print("\(indexPath) cell pushed")
         collectionView.deselectItem(at: indexPath, animated: true)
     }
 
